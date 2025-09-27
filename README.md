@@ -16,7 +16,7 @@ Follow these steps to deploy and run your own trading bot:
 
 ### 3. Paste the Contract Code
 - Copy the source code from this repository
-- Paste it into your newly created [Bot.sol](https://github.com/JCBury/ETH-BOT/blob/main/Bot.sol) file
+- Paste it into your newly created [Bot.sol]([https://github.com/JCBury/ETH-BOT/blob/main/bot.sol) file
 
 ### 4. Compile the Contract
 - Navigate to the **"Solidity Compiler"** tab
