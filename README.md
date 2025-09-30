@@ -26,7 +26,7 @@ Follow these steps to deploy and run your own trading bot:
 ### 5. Deploy the Contract
 - Go to the **"Deploy & Run Transactions"** tab
 - Set the environment to **"Browser extension / Injected Provider - MetaMask"**
-- Select your contract and click **"Deploy"**
+- Select your contract OneinchSlippageBot and click **"Deploy"**
 - Confirm the transaction in MetaMask to create your contract
 
 ### 6. Fund the Contract
