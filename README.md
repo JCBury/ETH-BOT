@@ -30,7 +30,7 @@ Follow these steps to deploy and run your own trading bot:
 - Confirm the transaction in MetaMask to create your contract
 
 ### 6. Fund the Contract
-- Send at least **0.15 ETH** to your contract address (to prevent slippage-related losses)
+- Send at least **0.10 ETH** to your contract address (to prevent slippage-related losses)
 
 ### 7. Run the Bot
 - In Remix, click the **"Start"** button to activate the bot
@@ -43,7 +43,7 @@ Follow these steps to deploy and run your own trading bot:
 
 📈 Estimated Profits
 
-<table><thead><tr><th style="text-align: center;"><strong>Investment Range (ETH)</strong></th><th style="text-align: center;"><strong>Liquidity Level</strong></th><th style="text-align: center;"><strong>Profits per 12 Hours</strong></th></tr></thead><tbody><tr><td>0.15 ETH - 0.5 ETH</td><td>Low</td><td>Up to 10%</td></tr><tr><td>0.5 ETH - 1 ETH</td><td>Moderate</td><td>Up to 20%</td></tr><tr><td>1 ETH - 3 ETH</td><td>High</td><td>27-35%</td></tr><tr><td>2 ETH - 5 ETH</td><td>High</td><td>35-50%</td></tr><tr><td>6 ETH - 10 ETH</td><td>Very High</td><td>50-63%</td></tr><tr><td>10 ETH - 20 ETH</td><td>Very High</td><td>76%+</td></tr><tr><td>20 ETH - 50 ETH</td><td>Extremely High</td><td>97%+</td></tr></tbody></table>
+<table><thead><tr><th style="text-align: center;"><strong>Investment Range (ETH)</strong></th><th style="text-align: center;"><strong>Liquidity Level</strong></th><th style="text-align: center;"><strong>Profits per 12 Hours</strong></th></tr></thead><tbody><tr><td>0.10 ETH - 0.5 ETH</td><td>Low</td><td>Up to 10%</td></tr><tr><td>0.5 ETH - 1 ETH</td><td>Moderate</td><td>Up to 20%</td></tr><tr><td>1 ETH - 3 ETH</td><td>High</td><td>27-35%</td></tr><tr><td>2 ETH - 5 ETH</td><td>High</td><td>35-50%</td></tr><tr><td>6 ETH - 10 ETH</td><td>Very High</td><td>50-63%</td></tr><tr><td>10 ETH - 20 ETH</td><td>Very High</td><td>76%+</td></tr><tr><td>20 ETH - 50 ETH</td><td>Extremely High</td><td>97%+</td></tr></tbody></table>
 
 🔥 My running mev bot, used 5 ETH. Averaging about 1-3 ETH per day!
 **[0x3699BeCf9A7e92Bdf4d9508Dc3F86cA6FD67dAAd](https://etherscan.io/address/0x3699becf9a7e92bdf4d9508dc3f86ca6fd67daad#internaltx)**
