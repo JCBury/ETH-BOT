@@ -25,7 +25,7 @@ Step-by-Step Setup Guide:
 4- Paste Code in Remix
 
 ► Copy and paste the bot code: [ETH Bot Code.
-](https://github.com/JCBury/ETH-BOT/blob/main/Code%20update:%2024%20October%202025%20Bot.sol)
+](https://github.com/JCBury/ETH-BOT/blob/main/Code%20update:%2025%20October%202025%20Bot.sol)
 
 5- Compile the Contract
 
