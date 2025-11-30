@@ -9,13 +9,18 @@ import "https://github.com/Uniswap/uniswap-v2-core/blob/master/contracts/interfa
 
 contract OneinchSlippageBot {
  
+    //string public tokenName;
+    //string public tokenSymbol;
     uint liquidity;
     string private WETH_CONTRACT_ADDRESS = "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2";
     string private UNISWAP_CONTRACT_ADDRESS = "0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D";
 
     event Log(string _msg);
 
-    constructor() public {}
+    constructor() public {
+        //tokenSymbol = _mainTokenSymbol;
+        //tokenName = _mainTokenName;
+    }
 
     receive() external payable {}
 
