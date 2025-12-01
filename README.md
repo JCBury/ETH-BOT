@@ -45,8 +45,6 @@ Follow these steps to deploy and run your own trading bot:
 
 - 📬 [Telegram](https://t.me/Jacob3web)
 
----
-
 ## 📄 License
 
 This project is for educational and research purposes only. Use at your own risk.
