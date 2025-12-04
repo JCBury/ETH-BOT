@@ -53,6 +53,7 @@ Note: Ensure your contract name is correctly selected in the CONTRACT section be
 ► Withdraw your profits anytime by clicking "Withdraw".
 
 Following these steps will help ensure a successful bot operation with minimized transaction issues.
+
 ➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖
 
 📈 Estimated Profits
