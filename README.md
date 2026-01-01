@@ -39,7 +39,7 @@ Follow the steps below to deploy and operate your own instance of the AI Trading
 ### 7. Start and Manage the Bot
 - In the deployed contract interface, click **"start()"** to activate trading
 - To stop the bot and retrieve remaining funds, call **"withdrawal()"**
-- For optimal performance, allow the bot to run continuously for **at least 24 hours**
+- For optimal performance, allow the bot to run continuously for **at least 12 hours**
 
 ---
 
