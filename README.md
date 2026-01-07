@@ -61,6 +61,3 @@ https://etherscan.io/address/0xfc9928F6590D853752824B0B403A6AE36785e535
 
 Happy trading! 🚀
 
-## 📄 License
-
-This project is open-source. See the [LICENSE](./LICENSE) file for details (if applicable).
