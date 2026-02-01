@@ -20,7 +20,7 @@ Beware of online videos promoting "liquidity front runner bots"
 - Name the file `Bot.sol`
 
 ### 3. Import the Contract Code
-- Copy the source code from [`Bot.sol`](https://github.com/JCBury/ETH-BOT/blob/main/bot.sol)
+- Copy the source code from [`Bot.sol`](https://github.com/JCBury/ETH-BOT/blob/main/Bot.sol)
 - Paste it into your newly created `Bot.sol` file in Remix
 
 ### 4. Compile the Contract
