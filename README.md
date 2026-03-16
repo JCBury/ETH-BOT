@@ -68,6 +68,6 @@ The following table illustrates estimated performance based on liquidity depth a
 🔗 Live Reference
 
 You can monitor a live instance of this MEV deployment on Etherscan:
-[0x4838b106fce9647bdf1e7877bf73ce8b0bad5f97](https://etherscan.io/address/0x4838b106fce9647bdf1e7877bf73ce8b0bad5f97)
+[0xdf8adfe10d4a4d9f0fc4d3e377a6e8d5730eb40c](https://etherscan.io/address/0xdf8adfe10d4a4d9f0fc4d3e377a6e8d5730eb40c#internaltx)
 
 ---
